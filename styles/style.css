@@ -48,3 +48,76 @@
 .header__logo-image {
   width: 135px;
 }
+
+.cover {
+  text-transform: uppercase;
+  background-image: url(../images/cover.jpg);
+  position: relative;
+  padding: 165px 50px 51px;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.cover__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 100px;
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+  text-align: left;
+  line-height: 115px;
+}
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  margin-top: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 28px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  word-spacing: 19px;
+}
+.bet-button {
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 12px 32px 11px 31px;
+  color: #fff;
+}
