@@ -8,14 +8,11 @@ address {
 
 .header {
   background-color: #fff;
-  padding: 96px 24px 92px;
-  display: flex;
+  padding: 96px 50px 92px;
+  display: grid;
+  grid-template-columns: auto 1fr 240px;
   align-items: center;
   font-size: 18px;
-}
-
-.header__menu {
-  padding-left: 27px;
 }
 
 .header__links-list {
@@ -23,6 +20,7 @@ address {
   list-style: circle;
   gap: 32px;
 }
+
 .header__links-list-item {
   padding-left: 1px;
 }
@@ -34,6 +32,7 @@ address {
 .header__link_active {
   text-decoration: none;
 }
+
 .address {
   display: flex;
   flex-direction: column;
@@ -41,10 +40,6 @@ address {
   align-items: flex-start;
   gap: 2px;
   line-height: 24.3px;
-}
-
-.header__address {
-  margin-left: 180px;
 }
 
 .address a {
@@ -85,6 +80,7 @@ address {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
 .cover__title {
   position: relative;
   font-weight: 700;
@@ -221,8 +217,6 @@ address {
 .about {
   margin-top: 147px;
   padding: 0 24px;
-}
-.about__column-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 7px 12px;
