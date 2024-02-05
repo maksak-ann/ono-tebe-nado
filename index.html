@@ -31,27 +31,27 @@
           class="header__logo-image"
           alt="лого"
       /></a>
-      <div class="address header__address">
+      <address class="address header__address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address>
+        <p>
           наб. Принсенграхт 263-<br />
           265, Амстердам
-        </address>
-      </div>
+        </p>
+      </address>
     </header>
 
     <main>
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="aligned-text">
+          <span class="aligned-text aligned-text_high">
             о<span class="letter-spacing-extended">н</span>о
           </span>
-          <span class="aligned-text_center">
+          <span class="aligned-text aligned-text_center">
             те<span class="letter-spacing-extended">бе</span></span
           >
-          <span class="aligned-text_right"
+          <span class="aligned-text aligned-text_right"
             ><span class="letter-spacing-extended">н</span>ад<span
               class="no-letter-spacing"
               >о</span
@@ -122,19 +122,14 @@
       </section>
       <section class="about">
         <div class="about__column-container">
-          <div class="about__column">
-            <div class="about__logo">
-              <img
-                class="about__logo-image"
-                src="./images/logo-white.svg"
-                alt="лого белый"
-              />
-            </div>
+          <div class="about__logo">
+            <img
+              class="about__logo-image"
+              src="./images/logo-white.svg"
+              alt="лого белый"
+            />
           </div>
           <h2 class="about__title">Об аукционе</h2>
-        </div>
-        <div class="about__column-container">
-          <div class="about__column"></div>
 
           <article class="about__text">
             <p>
@@ -144,7 +139,6 @@
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <br />
             <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
@@ -160,14 +154,14 @@
     </main>
 
     <footer class="footer">
-      <div class="address">
+      <address class="address address_footer">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address>
+        <p>
           наб. Принсенграхт 263-<br />
           265, Амстердам
-        </address>
-      </div>
+        </p>
+      </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
@@ -183,17 +177,32 @@
           </li>
         </ul>
       </nav>
-      <div class="footer__social-list">
-        <a class="footer__social-link" href="#"
-          ><img src="./images/yt.svg" alt="yotube"
-        /></a>
-        <a class="footer__social-link" href="#"
-          ><img src="./images/vk.svg" alt="вконтакте"
-        /></a>
-        <a class="footer__social-link" href="#"
-          ><img src="./images/pinterest.svg" alt="пинтерест"
-        /></a>
-      </div>
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#"
+            ><img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="yotube"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#"
+            ><img
+              class="footer__social-icon"
+              src="./images/vk.svg"
+              alt="вконтакте"
+          /></a>
+        </li>
+        <li class="footer__social-list-item">
+          <a class="footer__social-link" href="#"
+            ><img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="пинтерест"
+          /></a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
