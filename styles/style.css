@@ -20,6 +20,7 @@
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
+
 .header__link_active {
   text-decoration: none;
 }
@@ -146,9 +147,6 @@
   margin-top: 27px;
   list-style: none;
   flex-wrap: wrap;
-}
-
-.lots__card-list-item {
 }
 
 .card {
